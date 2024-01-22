@@ -5,7 +5,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := zlib
 LOCAL_DESCRIPTION := zlib
 
-LOCAL_EXPORT_LDLIBS = -l:zlib-1g
+LOCAL_EXPORT_LDLIBS = -lz
 
 include $(BUILD_CMAKE)
 
